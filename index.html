@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather Forcast App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header_section_container">
+
+        <div class="header_title">5-Day Forecast by Jack Dickinson</div>
+
+        <div class="location_input_container">
+
+            <h3 class="location_input_title">Enter location</h3>
+
+            <input id="location_input" type="text">
+
+            <button class="btn_submit_search" id="btn_submit">Go</button>
+
+        </div>
+
+        <div class="forcast_container">
+
+            <div class="forecast_card">
+                <h2 class="forecast_date" id="card_firstDay_title"></h2>
+                <div class="card_content">
+                <h3 class="title forecast_curr_temp_title">High</h3>
+                <h3 class="content highTemp"></h3>
+                <h3 class="title forecast_curr_feelsLike_title">Low</h3>
+                <h3 class="content lowTemp"></h3>
+                    </div>
+            </div>
+
+            <div class="forecast_card">
+                <h2 class="forecast_date" id="card_secondDay_title"></h2>
+                <div class="card_content">
+                <h3 class="title forecast_curr_temp_title">High</h3>
+                <h3 class="content highTemp"></h3>
+                <h3 class="title forecast_curr_feelsLike_title">Low</h3>
+                <h3 class="content lowTemp"></h3>
+                </div>
+            </div>
+
+            <div class="forecast_card">
+                <h2 class="forecast_date" id="card_thirdDay_title"></h2>
+                <div class="card_content">
+                <h3 class="title forecast_curr_temp_title">High</h3>
+                <h3 class="content highTemp"></h3>
+                <h3 class="title forecast_curr_feelsLike_title">Low</h3>
+                <h3 class="content lowTemp"></h3>
+                </div>
+            </div>
+
+            <div class="forecast_card">
+                <h2 class="forecast_date" id="card_fourthDay_title"></h2>
+                <div class="card_content">
+                <h3 class="title forecast_curr_temp_title">High</h3>
+                <h3 class="content highTemp"></h3>
+                <h3 class="title forecast_curr_feelsLike_title">Low</h3>
+                <h3 class="content lowTemp"></h3>
+                <div class="card_content"></div>
+            </div>
+        </div>
+            
+            <div class="forecast_card">
+                <h2 class="forecast_date" id="card_fifthDay_title"></h2>
+                <div class="card_content">
+                <h3 class="title forecast_curr_temp_title">High</h3>
+                <h3 class="content highTemp"></h3>
+                <h3 class="title forecast_curr_feelsLike_title">Low</h3>
+                <h3 class="content lowTemp"></h3>
+                <div class="card_content"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js" async defer></script>
+</body>
+
+</html>

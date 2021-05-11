@@ -1,0 +1,126 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.header_section_container {
+text-align: center;
+font-size: 24px;
+padding-top: 125px;
+padding-bottom: 25px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+.header_title {
+    padding-bottom: 50px;
+    font-size: 3.5rem;
+}
+
+.header_title , .location_input_title , .location_input_container > input {
+    font-family: 'Lato', sans-serif;
+}
+
+.location_input_title {
+    padding-bottom: 25px;
+    font-size: 2.5rem;
+}
+
+.btn_submit_search {
+    padding: 11px 35px 11px 35px;
+    font-size: 2rem;
+    font-family: 'Lato' sans-serif;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    vertical-align: top;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+    border-radius: 8%;
+}
+
+.btn_submit_search:hover {
+    background-color: white;
+    color: #EE6C4D;
+    border: 1px solid transparent;
+    box-shadow: 0px 6px 25px 1px grey;
+}
+
+.location_input_container > input {
+padding:10px;
+font-size: 2rem;
+text-align: center;
+}
+
+.forcast_container {
+   
+    height:500px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    flex-basis: auto;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.forecast_card {
+ 
+    background-color: white;
+    height: 500px;
+    margin-bottom: 20px;
+    width: 330px;
+    border-radius: 12px;
+    margin-right: 15px;
+    box-shadow: 0px 6px 25px 1px grey;
+    transition: all 0.2s ease-in-out;
+    clear: both;
+
+}
+
+.forecast_card:hover {
+ 
+    box-shadow: 0px 10px 20px 5px #EE6C4D;
+    margin-top: -20px;
+ 
+}
+
+.forecast_card > * {
+    font-family: 'Lato';
+    margin-bottom: 15px;
+    font-size: 90%;
+}
+
+.forecast_card h2 {
+ 
+    background-color: #3D5A80;
+    border-radius: 12px 12px 0px 0px;
+width: 100%;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 1.8rem;
+color: white;
+
+}
+
+.content {
+   font-weight: bold;
+   font-size: 2.5rem;
+}
+
+.title {
+    font-size: 1.8rem;
+}
+
+.card_content {
+    padding-top: 25px;
+}
+
+.card_content > * {
+    margin-bottom: 30px;
+}
