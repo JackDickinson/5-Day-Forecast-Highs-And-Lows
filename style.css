@@ -20,7 +20,7 @@ padding-right: 10px;
     font-size: 3.5rem;
 }
 
-.header_title , .location_input_title , .location_input_container > input {
+.header_title , .location_input_title , .location_input_container > input , .footer_temp_hint {
     font-family: 'Lato', sans-serif;
 }
 
@@ -56,8 +56,7 @@ text-align: center;
 }
 
 .forcast_container {
-   
-    height:500px;
+
     width:100%;
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +66,9 @@ text-align: center;
     flex-basis: auto;
     margin: 50px auto;
     justify-content: center;
+    clear: both;
+    margin-bottom: 50px;
+
 }
 
 .forecast_card {
@@ -124,3 +126,27 @@ color: white;
 .card_content > * {
     margin-bottom: 30px;
 }
+
+.footer_temp_hint {
+
+
+
+}
+
+@media only screen and (max-width: 700px) {
+   .forecast_card {
+      width:100%;
+    }
+    .forcast_container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #location_input {
+        margin-bottom: 10px;
+        width:100%;
+    }
+    #btn_submit {
+        width:50%;
+        padding: 20px 35px 20px 35px;
+    }
+  }
