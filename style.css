@@ -39,7 +39,7 @@ padding-right: 10px;
     vertical-align: top;
     cursor: pointer;
     transition: 0.2s all ease-in;
-    border-radius: 8%;
+    border-radius: 12px;
 }
 
 .btn_submit_search:hover {
